@@ -24,7 +24,7 @@ uploadRouter.post('/', (req, res) => {
         const caminhoArquivo = path.join(diretorio, nomeArquivo)
         
         fs.writeFileSync(caminhoArquivo, conteudoArquivo)
-        exec('cd arquivos && openssl pkcs7 --print_certs --in pe-nfe.p7b --inform der --outform pem --out PE-NFE.cer')
+        //exec('cd arquivos && openssl pkcs7 --print_certs --in pe-nfe.p7b --inform der --outform pem --out PE-NFE.cer')
         
     })
 
