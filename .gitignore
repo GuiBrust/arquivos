@@ -1,2 +1,4 @@
 node_modules/
 arquivos/
+arquivos_temporarios/
+package-lock.json
